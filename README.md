@@ -100,3 +100,4 @@ print("=" * 75)
 
 
 Hasil Outputnya
+![Hasil Perbaikan](hasiloutput.png)
