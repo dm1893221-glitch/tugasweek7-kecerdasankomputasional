@@ -1,11 +1,11 @@
 # tugasweek7-kecerdasankomputasional
 
 
-# PROGRAM DECISION TREE SEDERHANA
-# PRESENSI MAHASISWA
+PROGRAM DECISION TREE SEDERHANA
+PRESENSI MAHASISWA
 
 
-# Data mahasiswa
+Data mahasiswa
 mahasiswa = [
     {"nama": "Andi", "kehadiran": "Tinggi", "tugas": "Lengkap"},
     {"nama": "Budi", "kehadiran": "Rendah", "tugas": "Tidak Lengkap"},
@@ -22,14 +22,14 @@ print("Decision Tree Sederhana (IF - ELSE)")
 print("=" * 75)
 
 
-# FITUR TAMBAHAN
+FITUR TAMBAHAN
 
 
 jumlah_aktif = 0
 jumlah_tidak_aktif = 0
 mahasiswa_disiplin = 0
 
-# Header tabel
+Header tabel
 print("\n{:<10} {:<15} {:<20} {:<15} {:<25}".format(
     "Nama", "Kehadiran", "Tugas", "Status", "Keterangan"
 ))
@@ -37,7 +37,7 @@ print("\n{:<10} {:<15} {:<20} {:<15} {:<25}".format(
 print("-" * 75)
 
 
-# PROSES DATA
+PROSES DATA
 
 
 for data in mahasiswa:
@@ -73,7 +73,7 @@ for data in mahasiswa:
 print("=" * 75)
 
 
-# FITUR TAMBAHAN
+FITUR TAMBAHAN
 
 
 print("\nRINGKASAN DATA")
@@ -83,7 +83,7 @@ print("Jumlah Mahasiswa Tidak Aktif :", jumlah_tidak_aktif)
 print("Jumlah Mahasiswa Disiplin    :", mahasiswa_disiplin)
 
 
-# FITUR MENU TAMBAHAN
+FITUR MENU TAMBAHAN
 
 
 print("\nSTATUS KESELURUHAN KELAS")
