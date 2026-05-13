@@ -1,0 +1,1 @@
+# tugasweek7-kecerdasankomputasional
